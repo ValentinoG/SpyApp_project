@@ -1,0 +1,36 @@
+{
+  "name": "SpyApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.2",
+    "@voximplant/react-native-foreground-service": "^1.1.0",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-camera": "^2.9.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-exit-app": "^1.0.0",
+    "react-native-maps": "^0.24.2",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-scanner": "^1.2.1",
+    "react-native-sensors": "^5.1.8",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-webrtc": "^1.69.1",
+    "react-navigation": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
